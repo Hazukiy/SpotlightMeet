@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meet Spotlight</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #e1e1e1;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+
+    #control-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 250px;
+    }
+
+    label {
+      margin-bottom: 5px;
+    }
+
+    input[type="color"], input[type="number"] {
+      margin-bottom: 10px;
+      width: 100%;
+      background-color: #1e1e1e;
+      color: #e1e1e1;
+    }
+  </style>
+</head>
+<body>
+  <h1>GMeet Spotlight</h1>
+  <hr>
+  <div id="control-container">
+    <label for="highlight-color">Select Highlight Color:</label>
+    <input type="color" id="highlight-color" value="#ff0000">
+    
+    <label for="border-size">Select Border Size (px):</label>
+    <span id="border-size-value">3px</span>
+    <input type="range" id="border-size" value="3" min="1" max="10" step="1">
+    
+  </div>
+</body>
+<script src="popup.js"></script>
+</html>
