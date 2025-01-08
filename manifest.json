@@ -1,7 +1,10 @@
 {
     "name": "GMeet Spotlight",
     "description": "Select participants to toggle a highlight around the border.",
-    "version": "1.0",
+    "version": "1.1",
+    "author": {
+      "email": "luke.harvey@immixprotect.com"
+    },
     "permissions": ["activeTab", "scripting"],
     "host_permissions": ["https://meet.google.com/*"],
     "manifest_version": 3,
